@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-joki-bot",
+  "version": "1.0.0",
+  "description": "yang penting ngodink",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["cdid", "bot", "joki", "roblox"],
+  "author": "alexander",
+  "license": "ISC",
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
